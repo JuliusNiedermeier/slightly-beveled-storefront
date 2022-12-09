@@ -1,0 +1,53 @@
+.container {
+  margin-bottom: 1rem;
+}
+
+.success-note {
+  margin-top: 4rem;
+}
+
+.referral-info {
+  padding: 4rem 2rem;
+  background-color: black;
+  display: grid;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.link {
+  padding: 1rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.479);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.link:hover {
+  border-color: white;
+}
+
+.link > * {
+  white-space: nowrap;
+}
+
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .success-note {
+    margin-top: 0;
+    flex: 1;
+  }
+
+  .referral-info {
+    margin-top: 0;
+    padding: 8rem 4rem;
+  }
+}

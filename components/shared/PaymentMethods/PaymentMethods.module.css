@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.pm {
+  position: relative;
+  height: 2rem;
+  width: 2.5rem;
+}

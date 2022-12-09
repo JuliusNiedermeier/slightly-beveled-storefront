@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Cantarell";
+  src: url("../fonts/Cantarell/Cantarell-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Cantarell";
+  src: url("../fonts/Cantarell/Cantarell-Italic.ttf");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Cantarell";
+  src: url("../fonts/Cantarell/Cantarell-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}

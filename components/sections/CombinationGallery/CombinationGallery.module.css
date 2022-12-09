@@ -1,0 +1,74 @@
+.container {
+  height: 500vh;
+}
+
+.sticky {
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.images {
+  height: 100%;
+  position: relative;
+  flex: 2;
+}
+
+.image {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 250ms ease;
+}
+
+.image--current {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image {
+  object-fit: contain;
+}
+
+.indicators {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.indicator {
+  height: 3px;
+  width: 1rem;
+  background-color: #114233;
+  opacity: 0.25;
+}
+
+.indicator--active {
+  opacity: 1;
+}
+
+@media (min-width: 700px) {
+  .sticky {
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .indicators {
+    flex-direction: column;
+  }
+
+  .indicator {
+    height: 1rem;
+    width: 3px;
+  }
+
+  .description {
+    flex: 1;
+  }
+}

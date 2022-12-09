@@ -1,0 +1,108 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.container__navigation-column {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: none;
+}
+
+.container__navigation-column__navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container__navigation-column__navigation__item {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 250ms ease;
+}
+
+.container__navigation-column__navigation__item--current {
+  opacity: 1;
+  gap: 1.5rem;
+}
+
+.container__navigation-column__navigation__item:hover {
+  opacity: 0.75;
+}
+
+.container__navigation-column__navigation__item__line {
+  height: 1px;
+  width: 0;
+  background-color: black;
+  transition: width 250ms ease;
+}
+
+.container__navigation-column__navigation__item--current
+  .container__navigation-column__navigation__item__line {
+  width: 2rem;
+}
+
+.container__scroll-column__section {
+  margin: 25vh 0;
+  padding: 25vh 0 25vh 0;
+  position: relative;
+  /* background: linear-gradient(transparent, white, white, transparent); */
+}
+
+.container__scroll-column__section__sketch {
+  /* z-index: -1; */
+  position: absolute;
+  top: -8rem;
+  left: 0;
+  right: 0;
+  height: 20rem;
+  transform-origin: center;
+}
+
+@media (min-width: 700px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .container__navigation-column {
+    display: flex;
+    /* flex: 0.33; */
+    flex: 1;
+  }
+
+  .container__scroll-column {
+    flex: 3;
+  }
+
+  .container__scroll-column__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    padding: 25vh 0;
+    background: none;
+  }
+
+  .container__scroll-column__section__sketch {
+    position: relative;
+    height: 25rem;
+    flex: 1;
+    top: 0;
+  }
+
+  .container__scroll-column__section__description {
+    flex: 1;
+  }
+}

@@ -1,0 +1,38 @@
+.typography {
+  font-family: "Cantarell", "sans-serif";
+  color: var(--color--text--default);
+}
+
+.typography.contrast {
+  color: var(--color--text--contrast);
+}
+
+.heading--lg {
+  /* font-family: "New York"; */
+  font-size: clamp(4rem, 10vw, 8rem);
+  /* font-weight: 400; */
+  /* line-break: anywhere; */
+}
+
+.heading--md {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.heading--sm {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.generic {
+  font-size: 1rem;
+  line-height: 1.2em;
+}
+
+.generic--bold {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2em;
+}

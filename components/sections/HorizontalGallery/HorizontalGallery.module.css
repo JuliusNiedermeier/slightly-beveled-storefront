@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+}
+
+.section {
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.track {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  width: min-content;
+  height: 50vh;
+}
+
+.track > img {
+  height: 100%;
+}
+
+.price-tag {
+  position: absolute;
+  right: 0.75rem;
+  z-index: 1;
+  bottom: 1rem;
+  display: inline-block;
+  padding: 2rem;
+  padding-right: 1.8rem;
+  padding-left: 3rem;
+  background-color: black;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.price-tag > * {
+  mix-blend-mode: difference;
+}
+
+@media (min-width: 700px) {
+  .price-tag {
+    position: absolute;
+    right: 25vw;
+    z-index: 1;
+    bottom: 20vh;
+    background-color: black;
+    color: white;
+  }
+}

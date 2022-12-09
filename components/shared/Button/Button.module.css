@@ -1,0 +1,57 @@
+.button {
+  border: none;
+  display: inline-block;
+  padding: 2rem 3rem;
+  background-color: #114233;
+  border-radius: 0;
+  cursor: pointer;
+  transition: box-shadow 250ms ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button .labels > * {
+  display: block;
+}
+
+.sublabel {
+  opacity: 0.66;
+}
+
+.button.has-icon {
+  padding-right: 1.8rem;
+}
+
+.button.dark {
+  background-color: #114233;
+  color: white;
+}
+
+.button.dark:hover {
+  background-color: rgb(29, 29, 29);
+}
+
+.button.light {
+  background-color: #eaeaea;
+  color: black;
+}
+
+.button.light:hover {
+  background-color: #dfdfdf;
+}
+
+.button.text {
+  background-color: transparent;
+}
+
+.button:hover {
+  box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+.button.disabled {
+  filter: brightness(0.5);
+  pointer-events: none;
+}

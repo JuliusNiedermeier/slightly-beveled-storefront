@@ -1,0 +1,54 @@
+.success-note {
+  margin-top: 4rem;
+}
+
+.feedback {
+  display: grid;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.feedback-option {
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+
+.feedback-option:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.feedback-option--selected {
+  background-color: black;
+  color: white;
+}
+
+.feedback-option__status {
+  margin-left: auto;
+}
+
+.feedback-option__status > * {
+  display: block;
+}
+
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  .success-note {
+    margin-top: 0;
+    flex: 1;
+  }
+
+  .feedback {
+    flex: 1;
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "index": {
+    "IntroSection": {
+      "heading": "Elements Collection",
+      "weight": "8.3KG",
+      "width": "60CM",
+      "height": "40CM",
+      "depth": "40CM",
+      "material": "OAK WOOD"
+    },
+    "CombinationGallery": {
+      "heading": "Variations",
+      "content": "Compact yet incredibly versatile, a bundle of two tables will fit into any home or office."
+    },
+    "InfoSection": {
+      "aesthetic": {
+        "name": "Aestetic",
+        "heading": "Convertible and elegant",
+        "body": "Simple design and thoughtful function combined in a compact format and symmetrical shape impress with versatility and leave you a wide field of possibilities. The beveled wooden surfaces appear solid, but retain their elegant lightness. Carved from one single piece, the vivid grain of the oak continues along the edges, giving the impression of a single solid wooden ashlar."
+      },
+      "material": {
+        "name": "Materials",
+        "heading": "Premium Oak Wood",
+        "body": "Three sturdy natural wood plates give the table its basic shape and distinct minimalist look. Made of high-grade oak wood they provide excellent qualities and are the perfect choice for a long-lasting and sustainable piece of furniture. Through our gentle treatment with high quality and environmentally friendly oils and waxes, we preserve the natural appearance of the wood and create a resilient surface that ages gracefully."
+      },
+      "manufacture": {
+        "name": "Manufacture",
+        "heading": "Handcrafted unique pieces",
+        "body": "We work diligently with the best and most modern tools: our hands. They transform the raw unprocessed wood into supple furniture that meets our highest standards. We exclusively process wood from local forests."
+      },
+      "dimensions": {
+        "name": "Dimensions",
+        "height-label": "Height",
+        "height": "40cm",
+        "width-label": "Width",
+        "width": "60cm",
+        "depth-label": "Depth",
+        "depth": "40cm"
+      }
+    }
+  },
+
+  "successful-payment": {
+    "page": {
+      "heading": "Thank you!",
+      "subheading": "Please check your inbox.",
+      "body": "We have sent you an email with more information regarding your purchase.",
+      "refer": "Refer a friend and get a discount of up to"
+    }
+  },
+
+  "canceled-payment": {
+    "page": {
+      "heading": "Maybe later",
+      "subheading": "What made you hesitate?",
+      "body": "Tell us what we can do better. We welcome any advice for improvement!",
+      "feedback": {
+        "too-expensive": "The tables are too expensive for me",
+        "missing-payment-method": "No suitable payment method found",
+        "error": "An error occurred",
+        "later": "I will come back later",
+        "dislike": "I don't like the product"
+      }
+    }
+  },
+
+  "privacy": {},
+
+  "terms": {},
+
+  "legal-notice": {
+    "page": {
+      "heading": "Legal notice",
+      "law": "According to § 5 TMG",
+      "company": "Slightly Beveled",
+      "address": "Moosdorfstraße 10, 12435 Berlin, Germany",
+      "name-heading": "Represented by",
+      "name": "Julius Niedermeier",
+      "contact": "Contact",
+      "phone": "+49 176 4074 2728",
+      "email": "info@slightly-beveled.com"
+    }
+  },
+
+  "cancellation": {},
+
+  "not-found": {
+    "page": {
+      "heading": "This page has not been found",
+      "home": "Back to home page"
+    }
+  },
+
+  "global": {
+    "CookieConsent": {
+      "heading": "Oh look, another website that uses cookies.",
+      "info": "It's how we can learn and iterate to provide you with the best possible experience. Find out more in our Privacy Policy.",
+      "accept": "Accept",
+      "decline": "Decline"
+    },
+    "Pricing": {
+      "one": {
+        "heading": "1x",
+        "body": "A great starter package"
+      },
+      "two": {
+        "heading": "2x",
+        "body": "The allrounder for every living space",
+        "discount": "5% discount"
+      },
+      "four": {
+        "heading": "4x",
+        "body": "The complete package for the convinced",
+        "discount": "5% discount"
+      }
+    },
+    "Cart": {
+      "heading": "Order now",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "free": "Free",
+      "total": "Total",
+      "disclaimer": {
+        "heading": "Handcraft takes time",
+        "body": "We try to keep up with the demand as best as we can. Please expect delivery times between 1-3 weeks."
+      },
+      "terms": "Terms & Conditions",
+      "cancellation": "Cancellation",
+      "continue": "Continue",
+      "checkout": "Checkout",
+      "accept": "I accept the terms & conditions"
+    },
+    "Footer": {
+      "legal": {
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "cancellation": "Cancellation",
+        "legal-notice": "Legal notice",
+        "contact": "Contact",
+        "cookies": "Cookie settings"
+      },
+      "social": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "tiktok": "TikTok"
+      }
+    }
+  }
+}

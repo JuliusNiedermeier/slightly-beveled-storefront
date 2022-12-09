@@ -1,0 +1,149 @@
+{
+  "index": {
+    "IntroSection": {
+      "heading": "Elements Kollektion",
+      "weight": "8,3KG",
+      "width": "60CM",
+      "height": "40CM",
+      "depth": "40CM",
+      "material": "EICHE"
+    },
+    "CombinationGallery": {
+      "heading": "Variationen",
+      "content": "Platzsparend und doch so vielseitig passt sich die Elements-Variante aus zwei Beistelltischen in jeden Wohnraum ein."
+    },
+    "InfoSection": {
+      "aesthetic": {
+        "name": "Ästhetik",
+        "heading": "Wandelbar und stilvoll",
+        "body": "Schlichtes Design und durchdachte Funktion kombiniert in kompaktem Format und symmetrischer Form beeindrucken durch Wandlungsfähigkeit und bieten Ihnen ein weites Feld an Möglichkeiten. Die abgeschrägten Holzflächen wirken dabei massiv, behalten aber ihre elegante Leichtigkeit. Aus einem Stück geschnitten, setzt sich die lebhafte Maserung der Eiche über die Kanten fort und betont klar die Einheit des Möbelstücks."
+      },
+      "material": {
+        "name": "Material",
+        "heading": "Ausgesuchtes Eichenholz",
+        "body": "Drei robuste Naturholzflächen geben dem Tisch seine Grundform und seinen klaren, minimalistischen Look. Gefertigt aus hochwertigem Eichenholz bieten sie hervorragende Eigenschaften und sind die perfekte Wahl für ein langlebiges und nachhaltiges Möbelstück. Durch unsere schonende Behandlung mit hochwertigen und umweltverträglichen Ölen und Wachsen bewahren wir außerdem das natürliche Aussehen des Holzes und schaffen eine widerstandsfähige Oberfläche, die in Würde altert."
+      },
+      "manufacture": {
+        "name": "Manufaktur",
+        "heading": "Handwerk",
+        "body": "Wir arbeiten gewissenhaft mit den besten und modernsten Werkzeugen: unseren Händen. Sie verwandeln das raue unbearbeitete Holz in geschmeidige Möbel die unseren höchsten Ansprüchen genügen. Dabei verarbeiten wir ausschließlich Holz aus regionalen Wäldern."
+      },
+      "dimensions": {
+        "name": "Maße",
+        "height-label": "Höhe",
+        "height": "40cm",
+        "width-label": "Breite",
+        "width": "60cm",
+        "depth-label": "Tiefe",
+        "depth": "40cm"
+      }
+    }
+  },
+
+  "successful-payment": {
+    "page": {
+      "heading": "Danke",
+      "subheading": "Dein Produkt ist auf dem Weg!",
+      "body": "Wir haben dir eine Email mit weiteren Informationene zu deiner Bestellung gesendet.",
+      "refer": "Empfehle uns weiter und erhalte Rückzahlungen von bis zu"
+    }
+  },
+
+  "canceled-payment": {
+    "page": {
+      "heading": "Vielleicht später",
+      "subheading": "Was hat dich abgehalten?",
+      "body": "Sag uns was wir verbessern können. Wir freuen und über jeden Hinweis wie wir unser Angebot verbessern können!",
+      "feedback": {
+        "too-expensive": "Die Tische sind mir zu teuer",
+        "missing-payment-method": "Keine passende Zahlungsmethode gefunden",
+        "error": "Ein Fehler ist aufgetreten",
+        "later": "Komme später nochmal wieder",
+        "dislike": "Die Tische gefallen mir nicht"
+      }
+    }
+  },
+
+  "privacy": {},
+
+  "terms": {},
+
+  "legal-notice": {
+    "page": {
+      "heading": "Impressum",
+      "law": "Angaben gemäß § 5 TMG",
+      "company": "Slightly Beveled",
+      "address": "Moosdorfstraße 10, 12435 Berlin, Deutschland",
+      "name-heading": "Vertreten durch",
+      "name": "Julius Niedermeier",
+      "contact": "Kontakt",
+      "phone": "+49 176 4074 2728",
+      "email": "info@slightly-beveled.com"
+    }
+  },
+
+  "cancellation": {},
+
+  "not-found": {
+    "page": {
+      "heading": "Seite wurde nicht gefunden",
+      "home": "Zurück zur Startseite"
+    }
+  },
+
+  "global": {
+    "CookieConsent": {
+      "heading": "Und wieder eine Website die Cookies nutzt.",
+      "info": "Auf diese Weise können wir lernen und uns weiterentwickeln, um Ihnen das bestmögliche Erlebnis zu bieten. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie.",
+      "accept": "Akzeptieren",
+      "decline": "Ablehnen"
+    },
+    "Pricing": {
+      "one": {
+        "heading": "1x",
+        "body": "Ein gutes Startpaket"
+      },
+      "two": {
+        "heading": "2x",
+        "body": "Der Allrounder für jeden Wohnraum",
+        "discount": "5% Rabatt"
+      },
+      "four": {
+        "heading": "4x",
+        "body": "Das Komplettpaket für Überzeugte",
+        "discount": "5% Rabatt"
+      }
+    },
+    "Cart": {
+      "heading": "Deine Bestellung",
+      "subtotal": "Zwischensumme",
+      "shipping": "Versand",
+      "free": "Kostenlos",
+      "total": "Summe",
+      "disclaimer": {
+        "heading": "Handarbeit braucht seine Zeit",
+        "body": "Wir geben alles um mit der Nachfrage mitzuhalten, damit dein Tisch schon bald bei dir ist. Bitte rechne mit 1-3 Wochen Lieferzeit."
+      },
+      "terms": "AGB",
+      "cancellation": "Widerrufsrecht",
+      "continue": "Weiter",
+      "checkout": "Zur Kasse",
+      "accept": "Ich akzeptiere die AGB"
+    },
+    "Footer": {
+      "legal": {
+        "privacy": "Datenschutz",
+        "terms": "AGBs",
+        "cancellation": "Widerrufsrecht",
+        "legal-notice": "Impressum",
+        "contact": "Kontakt",
+        "cookies": "Cookie-Einstellungen"
+      },
+      "social": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "tiktok": "TikTok"
+      }
+    }
+  }
+}

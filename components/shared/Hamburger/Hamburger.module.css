@@ -1,0 +1,14 @@
+.container {
+  width: 1.5rem;
+}
+
+.top {
+  margin-bottom: 0.5rem;
+}
+
+.top,
+.bottom {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}

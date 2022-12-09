@@ -1,0 +1,8 @@
+.document {
+  max-width: 50rem;
+  margin: 4rem auto;
+}
+
+.document > * + * {
+  margin-top: 1rem;
+}
