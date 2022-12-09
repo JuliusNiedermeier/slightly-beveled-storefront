@@ -43,7 +43,7 @@ export const ScrollGallery = () => {
         </div>
       </Container>
 
-      <FullscreenImage url={"/tisch-09.jpg"} />
+      <FullscreenImage url={"/tisch-09-min.jpg"} />
     </div>
   );
 };
