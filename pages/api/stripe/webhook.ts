@@ -44,7 +44,7 @@ const handler: NextApiHandler = async (req, res) => {
           session.locale === "de" ? templates.de : templates.en;
         const msg: MailDataRequired = {
           to: session.customer_details!.email || "",
-          from: "julius.niedermeier@outlook.de",
+          from: "info@slightly-beveled.com",
           templateId,
           dynamicTemplateData: { name: session.customer_details?.name },
         };
