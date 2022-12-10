@@ -35,7 +35,9 @@ const handler: NextApiHandler = async (req, res) => {
         ],
         locale,
         shipping_address_collection: { allowed_countries: ["DE"] },
-        shipping_options: [{ shipping_rate: "shr_1MCnOiDXarA9K4d2FkhIyXLc" }],
+        shipping_options: [
+          { shipping_rate: process.env.STRIPE_SHIPPING_RATE || "" },
+        ],
         discounts: quantity > 1 ? [{ coupon: process.env.STRIPE_COUPON }] : [],
         mode: "payment",
         success_url,
